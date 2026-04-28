@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8" PrivateAssets="all" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlataformaDigital.BuildingBlocks/PlataformaDigital.BuildingBlocks.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Projects.Application/PlataformaDigital.Modules.Projects.Application.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Projects.Infrastructure/PlataformaDigital.Modules.Projects.Infrastructure.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Projects.Api/PlataformaDigital.Modules.Projects.Api.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Treasury.Application/PlataformaDigital.Modules.Treasury.Application.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Treasury.Infrastructure/PlataformaDigital.Modules.Treasury.Infrastructure.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Treasury.Api/PlataformaDigital.Modules.Treasury.Api.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.People.Application/PlataformaDigital.Modules.People.Application.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.People.Infrastructure/PlataformaDigital.Modules.People.Infrastructure.csproj" />
+    <ProjectReference Include="../PlataformaDigital.Modules.People.Api/PlataformaDigital.Modules.People.Api.csproj" />
+  </ItemGroup>
+</Project>

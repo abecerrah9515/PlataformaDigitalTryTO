@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <ProjectReference Include="../PlataformaDigital.Modules.Projects.Application/PlataformaDigital.Modules.Projects.Application.csproj" />
+  </ItemGroup>
+</Project>
