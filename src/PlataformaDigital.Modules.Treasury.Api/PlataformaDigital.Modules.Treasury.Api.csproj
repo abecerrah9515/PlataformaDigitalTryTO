@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../PlataformaDigital.Modules.Treasury.Application/PlataformaDigital.Modules.Treasury.Application.csproj" />
+  </ItemGroup>
+</Project>
